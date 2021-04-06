@@ -1,22 +1,51 @@
-html {
-    font-size: 62.5%;
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
-body {
-    font-size: 12px;
-    font-family: sans-serif;
-    background: #7871bf;
+
+#general {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid black;
 }
 
 h1 {
+    width: 100%;
+    height: 100px;
+    background: rgb(75, 75, 153);
+    color: white;
     text-align: center;
-    margin: auto;
-    text-align: center;
-    font-size: 50px;
-    color: #70acb1;
-    width: auto;
-    font-family: 'Cherry Swash', cursive;
-    background-color: #c6f1e7;
-    border-radius: 50px;
+    line-height: 90px;
+}
+
+#menu {
+    background-color: gray;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+    border-right: 1px solid black;
+}
+
+#menu ul li a {
+    color: black;
+    padding: 15px;
+    display: block;
+}
+
+#menu ul li:hover {
+    background-color: rgb(75, 75, 153);
+    cursor: pointer;
+}
+
+#menu ul li:hover a {
+    display: block;
+    color: white;
 }
 
 .titulo {
@@ -24,7 +53,6 @@ h1 {
     color: #70acb1;
     text-transform: capitalize;
     font-weight: bold;
-    font-family: 'Cherry Swash', cursive;
     font-size: 20px;
 }
 
@@ -33,18 +61,13 @@ h1 {
     color: #70acb1;
     text-transform: capitalize;
     font-weight: bold;
-    font-family: 'Cherry Swash', cursive;
     font-size: 20px;
 }
 
 #contenedor {
     display: block;
-    justify-content: center;
-    align-items: center;
     width: 300px;
     height: auto;
-    background-color: #c6f1e7;
-    border: 10px solid #70acb1;
     margin-left: auto;
     margin-right: auto;
     padding: 80px;
@@ -53,14 +76,18 @@ h1 {
 }
 
 .lista li {
-    color: #c6f1e7;
-    align-content: center;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Cherry Swash', cursive;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
+    list-style: none;
+}
+
+.link{
+    text-align: justify;
 }
 
 .pie {
@@ -73,10 +100,4 @@ h1 {
     font-size: 16px;
     margin-right: auto;
     margin-left: auto;
-}
-
-
-.clearfix {
-    float: none;
-    clear: both;
 }
