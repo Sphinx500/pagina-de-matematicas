@@ -82,7 +82,7 @@ font-size: 20px;
 #contenido .caja {
     width: 90%;
     height: auto;
-    background-color: indigo;
+    background-color: rgb(75, 75, 153);
     color: white;
     float: left;
     margin: 20px;
