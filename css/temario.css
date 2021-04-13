@@ -3,8 +3,8 @@
     padding: 0px;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    
 }
+
 
 #general {
     width: 1200px;
@@ -73,6 +73,10 @@ h1 {
     padding: 80px;
     float: none;
     border-radius: 30px;
+}
+
+container{
+    background-color: rgb(61, 61, 95);
 }
 
 .lista li {
