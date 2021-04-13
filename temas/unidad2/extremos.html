@@ -3,14 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Unidad 1</title>
+    <title>Unidad 2</title>
     <link rel="stylesheet" type="text/css" href="../../css/temas.css" />
 </head>
+
 <body>
     <div id="general">
         <header id="header">
             <h1>
-                UNIDAD 1
+                UNIDAD 2
             </h1>
         </header>
         <nav id="menu">
@@ -23,89 +24,90 @@
             </ul>
             <div class="clearfix"></div>
         </nav>
+
         <section id="contenido">
-            <h1>PLANOS Y SUPERFICIES</h1>
+            <h1>EXTREMOS DE FUNCIONES MULTIVARIABLES</h1>
             <div class="caja">
+                <br>
                 <div class="texto">
-                    PLANOS
-                </div>
-                <div class="texto">
-                    El plano tiene dos dimensiones: longitud y anchura.
-                    Un plano se representa mediante un paralelogramo de lados menores oblicuos.
-                    Se designan mediante letras griegas: α (alfa), β (beta)...
-                </div>
-                <div class="texto">
-                    Los planos vienen determinados por:
-                </div>
-                <div class="texto">
-                    3 puntos no alineados. 
-                </div>
-                <div class="texto">
-                    Dos rectas que se cortan
-                </div>
-                <div class="texto">
-                    Dos rectar paralelas
-                </div>
-                <div class="texto">
-                    Un punto y una recta
-                </div>
-                <div class="texto">
-                    Cualquier plano puede representarse mediante la ecuación:
-                </div>
-                <div class="texto">
-                    ax + by + cz + d = 0 , donde a, b, c y d son constantes reales.
+                    Una función z= f(x,y) tiene un máximo (mínimo) en un punto P(Xo,Yo)
+                    si el valor de la función en este punto es mayor (menor) que su valor en cualquier otro punto X(x,y)
+                    de algún entono de P.
+
+                    Si una función diferenciable z= f(x,y) alcanza un extremo en el punto P(Xo,Yo)
+                    entonces sus derivadas parciales de primer orden en este punto son iguales a cero
                 </div>
                 <div class="imagen">
-                    <p style="text-align: center; "> <img src="../../imagenes/unidad 1/planos.JPG" alt="imagen 1" width="400" height="200"></p>
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/extremos.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
                 </div>
                 <div class="texto">
-                    SUPERFICIES CUADRÁTICAS
+                    Al igual que las funciones de una variable, las de varias variables también tienen extremos
+                    relativos y absolutos.
                 </div>
                 <div class="texto">
-                    Este tipo de superficies en el espacio son las análogas a las secciones cónicas en R2.
+                    Un máximo (ó mínimo) absoluto es un valor para el que la función toma el mayor (ó menor) valor.
+                    Un punto es un extremo relativo si es un extremo en un entorno de dicho punto.
+                    Es decir, si es un extremo con respecto a los puntos cercanos.
                 </div>
                 <div class="texto">
-                    La forma general de una superficie cuádrica es:
+                    Un punto es un extremo relativo si es un extremo en un entorno de dicho punto.
+                    Es decir, si es un extremo con respecto a los puntos cercanos.
+                </div>
+                <br>
+                <div class="texto">
+                    PUNTOS CRITICOS
                 </div>
                 <div class="texto">
-                    Ax2 + By2 + Cz2 + Dxy + Exz + Fyz + Gx+ Hy + Iz + J = 0
+                    Si la función f admite derivadas parciales (es decir, que existen)
+                    en un extremo relativo a, entonces son iguales a 0.
                 </div>
                 <div class="texto">
-                    Hay seis tipos básicos de superficies cuádricas: elipsoide, hiperboloide de una hoja, 
-                    hiperboloide de dos hojas, cono elíptico, paraboloide y paraboloide hiperbólico.
+                    Es decir, los candidatos a extremos relativos son los puntos que anulan las derivadas parciales. Es
+                    una condición necesaria pero no suficiente, esto es, que se anulen en a no significa que a
+                    sea un extremo, pero es un requisito indispensable.
                 </div>
-                <div class="imagen">
-                    <p style="text-align: center; "> <img src="../../imagenes/unidad 1/elipsoide.JPG" alt="imagen 1" width="600" height="200"></p>
+                <br>
+                <div class="texto">
+                   EXTREMOS RELATIVOS
                 </div>
-                <div class="imagen">
-                    <p style="text-align: center; "> <img src="../../imagenes/unidad 1/hiperboloide.JPG" alt="imagen 1" width="600" height="200"></p>
+                <div class="texto">
+                   Llamamos a las derivadas parciales de f en a del siguiente modo:
+                 </div>
+                 <div class="texto">
+                   A = D1,1f(a)
+                  </div>
+                  <div class="texto">
+                    B = D1,2f(a)
+                   </div>
+                   <div class="texto">
+                    C = D2,2f(a)
+                   </div>
+                   <div class="texto">
+                    Y definimos el Hessiano de f en a como:
+                   </div>
+                   <div class="texto">
+                   H = A * C - B^2
+                   </div>
+                   <br>
+                   <div class="texto">
+                    El Hessiano es el determinante de la matriz Hessiana, por tanto se cumple que:
+                    </div>
+                   <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/hessiano.JPG" alt="imagen 1"
+                            width="500" height="200"></p>
                 </div>
-                <div class="imagen">
-                    <p style="text-align: center; "> <img src="../../imagenes/unidad 1/cono eliptico.JPG" alt="imagen 1" width="600" height="200"></p>
-                </div>
-                <div class="imagen">
-                    <p style="text-align: center; "> <img src="../../imagenes/unidad 1/paraboloide eliptico.JPG" alt="imagen 1" width="600" height="200"></p>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </section>
+
+
+
+
+
+
+
+
+
+
         <aside id="lateral">
             <div class="caja">
                 <h2>TEMARIO</h2>

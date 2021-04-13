@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Unidad 2</title>
+    <link rel="stylesheet" type="text/css" href="../../css/temas.css" />
+</head>
+
+<body>
+    <div id="general">
+        <header id="header">
+            <h1>
+                UNIDAD 2
+            </h1>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="../../temario.html">TEMARIO</a></li>
+                <li><a href="#">EJERCICIOS</a></li>
+                <li><a href="../../referencias.html">REFERENCIAS</a></li>
+                <li><a href="#">ACERCA DE </a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </nav>
+        <section id="contenido">
+            <h1>LA DERIVADA PARCIAL</h1>
+            <div class="caja">
+                <div class="texto">
+                    Las derivadas parciales de una función con varias variables f(x,y,z)
+                    (tres en este caso) nos informa de cómo cambia la función (df)
+                    cuando se produce un pequeño cambio en una única variable independiente
+                    (por ejemplo dx en la variable x).
+                </div>
+                <div class="texto">
+                    Las derivadas parciales de una función multivariable las definiremos
+                    también mediante un límite, si este límite existiera, haciendo
+                    extensiva la definición de una derivada ordinaria.
+                </div>
+                <div class="texto">
+                    Para una función multivariable, como f(x, y) = x^2y,
+                    calcular las derivadas parciales se ve algo como esto:
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/derivada.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    Las derivadas parciales de una función u = f(x , y, z) serían:
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/funcion_u.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <br>
+                <div class="texto">
+                    En el primer caso, la derivada parcial de la función respecto
+                    a x, se consideran las variables independientes y y z como unas constantes.
+                </div>
+                <div class="texto">
+                    En el segundo caso, respecto a y, se consideran las variables
+                    independientes x y z como unas constantes.
+                </div>
+                <div class="texto">
+                    En el tercer caso, la derivada parcial de la función respecto
+                    a z, se consideran las variables independientes x e y como unas constantes.
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    LA DERIVADA COMO RAZÓN DE CAMBIO INSTANTÁNEA
+                </div>
+                <div class="texto">
+                    La razón de cambio es la proporción en la que una variable cambia con respecto a otra,
+                    de manera más explícita hablamos de la pendiente de una curva en una gráfica,
+                    es decir el cambio en el eje "y" entre el cambio del eje "x".
+                    A esto se le conoce también como la primera derivada.
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/razon.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    LA DERIVADA COMO PENDIENTE
+                </div>
+                <div class="texto">
+                    las derivadas parciales nos indicarán también la pendiente de una recta concreta tangente a la
+                    superficie.
+                    Antes, pero, vamos a aprender a calcular derivadas parciales, ya que es un metodologia a la que
+                    luego le daremos sentido.
+                    Para calcular una derivada parcial de una función en diversas variables tenemos que derivar
+                    como siempre respecto una de las variables y mantener las demás como constantes, (como valores
+                    fijos).
+                </div>
+                <div class="texto">
+                    Esto significa que sabemos la rapidez de crecimiento/decrecimiento de la función en ese punto.
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/pendiente.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <div class="texto">
+                    Esto significa que sabemos la rapidez de crecimiento/decrecimiento de la función en ese punto.
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    RECTA TANGENTE A LA CURVA
+                </div>
+                <div class="texto">
+                    La recta tangente a la curva y=f(x) en el punto P(a,f(a))
+                    es la recta que pasa por P con pendiente
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/tangente.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    LEYES DE DERIVACIÓN PARCIAL
+                </div>
+                <br>
+                <br>
+                <div class="texto">
+                    LEYES DIFERENCIACIÓN ORDINARIA.
+                </div>
+                <div class="texto">
+                    La regla de la diferencia establece que la derivada
+                    de la diferencia de funciones es igual a la diferencia de sus derivadas.
+                </div>
+                <div class="texto">
+                    1.- Derivado de una función constante.
+                </div>
+                <div class="texto">
+                    La derivada de f (x) = c donde c es una constante viene dada por f'(x) = 0
+                </div>
+                <div class="texto">
+                    2.- Derivado de una función de potencia (regla de potencia)
+                </div>
+                <div class="texto">
+                    La derivada de f (x) = x^r donde r es un número real constante viene dada por
+                    f '(x) = r x^r - 1
+                </div>
+                <div class="texto">
+                    3.- Derivada de una función multiplicada por una constante.
+                </div>
+                <div class="texto">
+                    La derivada de f (x) = c g (x), donde c es una constante, viene dada por
+                    f '(x) = c g '(x)
+                </div>
+                <div class="texto">
+                    4.- Derivado de la suma de funciones (regla de suma).
+                </div>
+                <div class="texto">
+                    La derivada de f (x) = g (x) + h (x) está dada por
+                    f '(x) = g '(x) + h '(x)
+                </div>
+                <div class="texto">
+                    5.- Derivado de la diferencia de funciones.
+                </div>
+                <div class="texto">
+                    La derivada de f(x) = g(x) - h(x) viene dada por
+                    f '(x) = g '(x) - h '(x)
+                </div>
+                <br>
+                <div class="texto">
+                    DERIVADAS PARCIALES DE ORDEN SUPERIOR
+                </div>
+                <div class="texto">
+                    La derivada de orden superior comprende las derivadas a partir de la segunda derivada a más,
+                    y que se efectúa derivando tantas veces como se indique.
+                    Las derivadas parciales son útiles en cálculo vectorial y geometría diferencial.
+                </div>
+                <div class="texto">
+                     Utilidad: Para graficar una función tridimensional y encontrar los puntos críticos se determina:
+                    Teorema de schwarz (igualdad de las derivadas mixtas).
+                </div>
+                <br>
+                <div class="texto">
+                    DERIVACIÓN PARCIAL IMPLÍCITA
+                </div>
+                <div class="texto">
+                    la derivada parcial implícita corresponde a una función que tiene diversas variables,
+                     en este caso es una derivada con respecto a una de las variables manteniendo todas las otras como constantes.  
+                     Las derivadas parciales implícitas con usadas en los cálculos de vectoriales y geometría diferencial. 
+                     La derivada parcial de una cualquier función f respecto a la variables x puede ser representada como:
+                </div>
+                <div class="imagen">
+                    <p style="text-align: center; "> <img src="../../imagenes/unidad 2/implicita.JPG" alt="imagen 1"
+                            width="300" height="200"></p>
+                </div>
+                <div class="texto">
+                    Al completar la derivada se obtiene la una expresión que nos permite 
+                    encontrar la pendiente de una recta tangente de una función en un punto dado.  
+                </div>
+                <br>
+                <div class="texto">
+                    REGLA DE LA CADENA
+                </div>
+                <div class="texto">
+                    La regla de la cadena es una fórmula que te permitirá obtener la derivada de funciones más complejas.
+                </div>
+                <div class="texto">
+                    Desde un punto de vista práctico, la regla de la cadena nos permite decir "si en lugar de x tengo f(x), 
+                    a la hora de derivar sustituyo x por f(x) en la regla que corresponda, y multiplico por f'(x)".
+                </div>
+                <div class="texto">
+                    En realidad, la regla de la cadena es una consecuencia de la derivada de la composición de funciones. 
+                </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <aside id="lateral">
+            <div class="caja">
+                <h2>TEMARIO</h2>
+                <nav id="temario">
+                    <p class="unidad">Unidad 1</p>
+                    <br>
+                    <ul>
+                        <li><a href="../../temas/unidad1/funciones.html">Funciones escalares de varias variables</a>
+                        </li>
+                        <br>
+                        <li><a href="../../temas/unidad1/planos.html">Planos y superficies</a></li>
+                        <br>
+                        <li><a href="../../temas/unidad1/limites.html">Limites y continuidad en funciones de 3
+                                variables</a></li>
+                        <br>
+                        <p class="unidad">Unidad 2</p>
+                        <br>
+                        <li><a href="../../temas/unidad2/derivada_parcial.html">La derivada parcial</a></li>
+                        <br>
+                        <li><a href="../../temas/unidad2/vector.html">Vector gradiente y derivada direccional</a></li>
+                        <br>
+                        <li><a href="../../temas/unidad2/extremos.html">Extremos de funciones multivariables</a></li>
+                        <br>
+                        <p class="unidad">Unidad 3</p>
+                        <br>
+                        <li><a href="">Integral doble y triple</a></li>
+                        <br>
+                        <li><a href="">Area de regiones generales</a></li>
+                        <br>
+                        <li><a href="">Volumenes</a></li>
+                        <br>
+                        <p class="unidad">Unidad 4</p>
+                        <br>
+                        <li><a href="">Ecuaciones paramétricas</a></li>
+                        <br>
+                        <li><a href="">Calculo en funciones vectoriales</a></li>
+                        <br>
+                        <li><a href="">Integral en linea</a></li>
+                        <br>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="clearfix"></div>
+        <footer id="footer">
+            Todos los derechos reservados &copy Fernando
+        </footer>
+    </div>
+</body>
+
+</html>
